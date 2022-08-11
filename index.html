@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Trybewarts</title>
 </head>
 
 <body>
-    <header class="trybewarts-header-logo">
+    <header class="header">
 
-        <img src="images/trybewarts-header-logo.svg" alt="logo" width="100px">
-        <div class="login-header">
-            <form action="get" method="get">
-                <input type="email" placeholder="Email" id="email" value="tryber@teste.com">
-                <input type="password" placeholder="Senha" id="senha" value="123456">
+        <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="logo" width="100px">
+        <div>
+            <form method="get" class="trybewarts-login">
+                <input type="email" placeholder="Email" id="email" name="email">
+                <input type="password" placeholder="Senha" id="senha" name="password">
                 <button id="btn">Entrar</button>
             </form>
-
         </div>
     </header>
 
@@ -27,5 +27,5 @@
 
 
 </body>
-
+<script src="script.js"></script>
 </html>

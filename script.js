@@ -3,8 +3,9 @@ function login() {
     let email = document.getElementById('email').value;
 
     if (senha === "123456" && email === "tryber@teste.com") {
-        alert("Ola")
-    }
+        alert("Olá, Tryber!")}
+    else {alert("Email ou senha inválidos.")}
+    
 }
 
 document.getElementById('btn').addEventListener('click', login);
