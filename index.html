@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <title>Trybewarts</title>
 </head>
+
 <body>
-    <header>
-        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo" width="100px">
+    <header class="trybewarts-header-logo">
+
+        <img src="images/trybewarts-header-logo.svg" alt="logo" width="100px">
+        <div class="login-header">
+            <form action="get" method="get">
+                <input type="email" placeholder="Email" id="email" value="tryber@teste.com">
+                <input type="password" placeholder="Senha" id="senha" value="123456">
+                <button id="btn">Entrar</button>
+            </form>
+
+        </div>
     </header>
 
 
 
 
 </body>
+
 </html>

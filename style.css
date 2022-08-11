@@ -2,8 +2,20 @@
 padding: 0;}
 
 header{
-    display: flex;
     background-color: rgb(50, 167, 145);
-    height: 100px;
+    height: 150px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center
+}
+img{
+    padding: 20px
+}
+
+
+.login-header{
+    
+
 }
