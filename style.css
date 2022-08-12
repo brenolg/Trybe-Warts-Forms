@@ -13,7 +13,7 @@ header{
 }
 
 header img{
-    padding: 20px;
+  padding: 20px;
 }
 
 header input{
@@ -23,171 +23,163 @@ header input{
   margin: 10px;
 }
 
-
 header button {
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 10px;
-    background-color:  blueviolet;
-    color: white;
-    font-size: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color:  blueviolet;
+  color: white;
+  font-size: 20px;
 }
 
 .nome-sobrenome{
-    margin-top: 50px;
-    
+  margin-top: 50px; 
 }
-
 
 main input{
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-
 form{
-    
-    display: flex;
+  display: flex;
 }
 
 #input-name{
-    width: 50%;
+  width: 50%;
 }
 
 #input-lastname{
-    width: 50%;
+  width: 50%;
 }
 
 #input-email{
-    width: 100%;
+  width: 100%;
 }
 
 #divPaiEmail{
-    display: flex;
+  display: flex;
 }
 .email-casa{
-    width: 50%;
+  width: 50%;
 }
 
 #casaDiv{
-    width: 50%;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
 }
 
 select{
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .divfamily{
-    display: flex;
-    flex-direction: column;
-    
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 #divCheckPai{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }
 
 #section2{
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 #divCheck{
-    display: flex;
+  display: flex;
 }
 
 #divCheck label{
-    font-size: 32px;
+  font-size: 32px;
 }
 
 #labelPrincipal{
-    text-align: justify;
+  text-align: justify;
 }
 
 #divCheck{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }
+
 #divRate{
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 label{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 textarea{
-    width: 100%;
+  width: 100%;
 }
 
 #submit-btn{
-    width: 100%;
-    margin-top: 30px;
-    padding: 20px;
-    color: white;
-    background-color: blueviolet;
-    border: 2px solid black;
-    border-radius: 20px;
-    font-size: 30px;
-    cursor: pointer;
-    
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 #evaluation-form{
-    display: flex;
-    width: 675px;
-    flex-direction: column;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo{
-    height: 500px;
+  height: 500px;
 }
 .nome-sobrenome{
-    display: flex;
+  display: flex;
 }
 .email-casa{
-    display: flex;
+  display: flex;
 }
 
 footer{
-    text-align: center;
-    bottom: 0;
-    background-color: rgb(50, 167, 145);
-    position: fixed;
-    width: 100%;
+  text-align: center;
+  bottom: 0;
+  background-color: rgb(50, 167, 145);
+  position: fixed;
+  width: 100%;
 }
 
 #counter{
-height: 0;
-width: 0;
-top: -25px;
-left: 95%;
-position: relative;
-      
-
+  height: 0;
+  width: 0;
+  top: -25px;
+  left: 95%;
+  position: relative;
 }
