@@ -144,7 +144,7 @@ main {
 
 .nome-sobrenome {
   display: flex;
-  margin-top: 50px;
+  margin-top: 51px;
 }
 
 .email-casa {
@@ -155,7 +155,7 @@ main {
 footer {
   text-align: center;
   bottom: 0;
-  background-color: rgb(50, 167, 145);
+  background-color: rgb(51, 167, 145);
   position: fixed;
   width: 100%;
 }
