@@ -1,8 +1,9 @@
 *{
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
 
-header{
+header {
   background-color: rgb(50, 167, 145);
   height: 150px;
   width: 100%;
@@ -12,11 +13,11 @@ header{
   align-items: center
 }
 
-header img{
+header img {
   padding: 20px;
 }
 
-header input{
+header input {
   border: 1px solid black;
   padding: 20px;
   border-radius: 20px;
@@ -33,82 +34,82 @@ header button {
   font-size: 20px;
 }
 
-.nome-sobrenome{
+.nome-sobrenome {
   margin-top: 50px; 
 }
 
-main input{
+main input {
   padding: 10px;
   border: 2px solid black;
   border-radius: 10px;
 }
 
-form{
+form {
   display: flex;
 }
 
-#input-name{
+#input-name {
   width: 50%;
 }
 
-#input-lastname{
+#input-lastname {
   width: 50%;
 }
 
-#input-email{
+#input-email {
   width: 100%;
 }
 
-#divPaiEmail{
+#divPaiEmail {
   display: flex;
 }
-.email-casa{
+.email-casa {
   width: 50%;
 }
 
-#casaDiv{
+#casaDiv {
   width: 50%;
   align-items: center;
   justify-content: flex-end;
   display: flex;
 }
 
-select{
+select {
   padding: 10px;
   border: 2px solid black;
   border-radius: 10px;
 }
 
-.divfamily{
+.divfamily {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
 
-#divCheckPai{
+#divCheckPai {
   display: flex;
   width: 50%;
   flex-direction: column;
 }
 
-#section2{
+#section2 {
   display: flex;
   margin-top: 10px;
 }
 
-#divCheck{
+#divCheck {
   display: flex;
 }
 
-#divCheck label{
+#divCheck label {
   font-size: 32px;
 }
 
-#labelPrincipal{
+#labelPrincipal {
   text-align: justify;
 }
 
-#divCheck{
+#divCheck {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -116,7 +117,7 @@ select{
   justify-content: space-around;
 }
 
-#divRate{
+#divRate {
   display: flex;
   justify-content: flex-start;
   justify-content: space-between;
@@ -124,15 +125,15 @@ select{
   margin-bottom: 30px;
 }
 
-label{
+label {
   font-size: 25px;
 }
 
-textarea{
+textarea {
   width: 100%;
 }
 
-#submit-btn{
+#submit-btn {
   width: 100%;
   margin-top: 30px;
   padding: 20px;
@@ -144,7 +145,7 @@ textarea{
   cursor: pointer;
 }
 
-main{
+main {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -152,23 +153,25 @@ main{
   justify-content: space-evenly;
 
 }
-#evaluation-form{
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
   height: 500px;
 }
-.nome-sobrenome{
-  display: flex;
-}
-.email-casa{
+
+.nome-sobrenome {
   display: flex;
 }
 
-footer{
+.email-casa {
+  display: flex;
+}
+
+footer {
   text-align: center;
   bottom: 0;
   background-color: rgb(50, 167, 145);
@@ -176,7 +179,7 @@ footer{
   width: 100%;
 }
 
-#counter{
+#counter {
   height: 0;
   width: 0;
   top: -25px;

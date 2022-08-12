@@ -19,6 +19,20 @@ textA.addEventListener('keyup', function contador(e){
  
 })
 
+let btnSubmit = document.querySelector('#submit-btn');
+let checkbox = document.querySelector('#label-infos');
+btnSubmit.disabled = true;
+function disableBtn(){
+    if (checkbox.value === "") {
+        btnSubmit.disabled = true;
+    } else {
+        btnSubmit.disabled = false;
+    }
+
+}
+checkbox.addEventListener("change", disableBtn);
+
+
 document.getElementById('submit-btn').onclick = novoForm
 function novoForm(){
     const form = document.createElement("div");
