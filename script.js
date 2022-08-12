@@ -15,6 +15,6 @@ let textA = document.querySelector('#textarea');
 textA.addEventListener('keyup', function contador(e){
     let inputlenght = textA.value.length;
     let p = document.querySelector('#contador');
-    p.innerHTML = inputlenght
+    p.innerHTML = 500 -inputlenght
  
 })
