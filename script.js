@@ -18,3 +18,10 @@ textA.addEventListener('keyup', function contador(e){
     p.innerHTML = 500 -inputlenght
  
 })
+
+document.getElementById('submit-btn').onclick = novoForm
+function novoForm(){
+    const form = document.createElement("div");
+    form.className = "form-data"
+    document.querySelector('main').childNodes[1].appendChild(form);
+}
