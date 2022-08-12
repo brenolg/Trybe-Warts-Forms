@@ -1,41 +1,39 @@
 function login() {
-    let senha = document.getElementById('senha').value;
-    let email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
+  const email = document.getElementById('email').value;
 
-    if (senha === "123456" && email === "tryber@teste.com") {
-        alert("Olá, Tryber!")}
-    else {alert("Email ou senha inválidos.")}
-    
+  if (senha === '123456' && email === 'tryber@teste.com') {
+    alert('Olá, Tryber!');
+  } else { alert('Email ou senha inválidos.'); }
 }
 
 document.getElementById('btn').addEventListener('click', login);
 
-let textA = document.querySelector('#textarea');
+const textA = document.querySelector('#textarea');
 
-textA.addEventListener('keyup', function contador(e){
-    let inputlenght = textA.value.length;
-    let p = document.querySelector('#counter');
-    p.innerHTML = 500 -inputlenght
- 
-})
+// eslint-disable-next-line no-unused-vars
+textA.addEventListener('keyup', () => {
+  const inputlenght = textA.value.length;
+  const p = document.querySelector('#counter');
+  p.innerHTML = 500 - inputlenght;
+});
 
-let btnSubmit = document.querySelector('#submit-btn');
-let checkbox = document.querySelector('#label-infos');
+const btnSubmit = document.querySelector('#submit-btn');
+const checkbox = document.querySelector('#label-infos');
 btnSubmit.disabled = true;
-function disableBtn(){
-    if (checkbox.value === "") {
-        btnSubmit.disabled = true;
-    } else {
-        btnSubmit.disabled = false;
-    }
-
+function disableBtn() {
+  if (checkbox.value === '') {
+    btnSubmit.disabled = true;
+  } else {
+    btnSubmit.disabled = false;
+  }
 }
-checkbox.addEventListener("change", disableBtn);
+checkbox.addEventListener('change', disableBtn);
 
-
-document.getElementById('submit-btn').onclick = novoForm
-function novoForm(){
-    let form = document.createElement("div");
-    form.id = 'form-data';
-    document.querySelector('main').childNodes[1].appendChild(form);
-}
+// eslint-disable-next-line no-use-before-define
+// document.getElementById('submit-btn').onclick = novoForm;
+// function novoForm() {
+//   const form = document.createElement('div');
+//   form.id = 'form-data';
+//   document.querySelector('main').childNodes[1].appendChild(form);
+// }
