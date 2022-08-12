@@ -9,3 +9,12 @@ function login() {
 }
 
 document.getElementById('btn').addEventListener('click', login);
+
+let textA = document.querySelector('#textarea');
+
+textA.addEventListener('keyup', function contador(e){
+    let inputlenght = textA.value.length;
+    let p = document.querySelector('#contador');
+    p.innerHTML = inputlenght
+ 
+})
