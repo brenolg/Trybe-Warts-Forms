@@ -1,29 +1,136 @@
-*{margin: 0;
-padding: 0;}
+*{
+  margin: 0;
+  padding: 0;}
 
 header{
-    background-color: rgb(50, 167, 145);
-    height: 150px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center
-}
-.trybewarts-login{
-    padding: 20px;
+  background-color: rgb(50, 167, 145);
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center
 }
 
+
+header input{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+header button {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color:  blueviolet;
+    color: white;
+    font-size: 20px;
+}
+
+.nome-sobrenome{
+    margin-top: 50px;
+    
+}
+
+
+main input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
 form{
+    
     display: flex;
 }
-img{
-    padding: 20px
+
+#input-name{
+    width: 50%;
 }
+
+#input-lastname{
+    width: 50%;
+}
+
+#input-email{
+    width: 100%;
+}
+
+#divPaiEmail{
+    display: flex;
+}
+.email-casa{
+    width: 50%;
+}
+
+#casaDiv{
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+select{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.divfamily{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+}
+
+#divCheckPai{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+#section2{
+    display: flex;
+    margin-top: 10px;
+}
+
+#divCheck{
+    display: flex;
+}
+
+#labelPrincipal{
+    text-align: justify;
+}
+
+#divCheck{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#divRate{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+label{
+    font-size: 25px;
+}
+
 main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+
 }
 #evaluation-form{
     display: flex;

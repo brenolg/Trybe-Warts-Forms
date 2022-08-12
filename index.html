@@ -26,54 +26,69 @@
         <form action="" id="evaluation-form">
 
             <div class="nome-sobrenome">
-            <input type="text" placeholder="Nome"id="input-name">
-            <input type="text" placeholder="Sobrenome" id="input-lastname">
+               <input type="text" placeholder="Nome"id="input-name">
+               <input type="text" placeholder="Sobrenome" id="input-lastname">
+            </div>
+            <br>
+            <div id="divPaiEmail">
+                <div class="email-casa">
+                    <input type="text" placeholder="Email" id="input-email">
+                </div>
+                
+                    <div id="casaDiv">
+                        <label for="casa">Escolha uma casa:
+                            <select name="casa" id="house">
+                                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                            </select>
+                        </label>
+                    </div>
+                
             </div>
 
-            <div class="email-casa">
-            <input type="text" placeholder="Email" id="input-email">
-            <label for="casa">Escolha uma casa:</label>
-            <select name="casa" id="house">
-                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                <option value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
+           <div id="section2">
+                <div class="divfamily">
+                  <label for="family" id="label-family" >Qual sua família?</label>
+                  <br>
+                  <label for="family"><input type="radio" name="family" value="Frontend" id="label-family">Frontend</label>
+                  <label for="family"><input type="radio" name="family" value="Backend" id="label-family">Backend</label>
+                  <label for="family"><input type="radio" name="family" value="FullStack" id="label-family">FullStack</label>
+                </div>
+
+                <div id="divCheckPai">
+                     <div id="labelPrincipal">
+                        <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+                     </div>
+                     <br>
+                <div id="divCheck">     
+                    <label for="label-content">HoFs</label>
+                    <input type="checkbox" value="HoFs" class="subject">
+ 
+                    <label for="label-content">Jest</label>
+                    <input type="checkbox" value="Jest" class="subject">
+ 
+                    <label for="label-content">Promises</label>
+                    <input type="checkbox" value="Promises" class="subject">
+ 
+                    <label for="label-content">React</label>
+                    <input type="checkbox" value="React" class="subject">
+             
+                    <label for="label-content">SQL</label>
+                    <input type="checkbox" value="SQL" class="subject">
+             
+                    <label for="label-content">Python</label>
+                    <input type="checkbox" value="Python" class="subject">
+                </div>
             </div>
-            <label for="family" id="label-family" >Qual sua família?</label>
 
-            <label for="family">Frontend</label>
-            <input type="radio" name="family" value="Frontend" id="label-family">
 
-            <label for="family">Backend</label>
-            <input type="radio" name="family" value="Backend" id="label-family">
-
-            <label for="family">FullStack</label>
-            <input type="radio" name="family" value="FullStack" id="label-family">
+           </div>
 
             
-            <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
             
-            <label for="label-content">HoFs</label>
-            <input type="checkbox" value="HoFs" class="subject">
-
-            <label for="label-content">Jest</label>
-            <input type="checkbox" value="Jest" class="subject">
-
-            <label for="label-content">Promises</label>
-            <input type="checkbox" value="Promises" class="subject">
-
-            <label for="label-content">React</label>
-            <input type="checkbox" value="React" class="subject">
-            
-            <label for="label-content">SQL</label>
-            <input type="checkbox" value="SQL" class="subject">
-            
-            <label for="label-content">Python</label>
-            <input type="checkbox" value="Python" class="subject">
-
-
-            <div>
+            <div id="divRate">
             <label id="label-rate" for="label-rate">Como você avalia a Trybewarts?</label>
 
             <label for="rate">1</label>
