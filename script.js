@@ -35,7 +35,7 @@ checkbox.addEventListener("change", disableBtn);
 
 document.getElementById('submit-btn').onclick = novoForm
 function novoForm(){
-    const form = document.createElement("div");
-    form.className = "form-data"
+    let form = document.createElement("div");
+    form.id = 'form-data';
     document.querySelector('main').childNodes[1].appendChild(form);
 }
