@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -8,9 +8,8 @@ header {
   height: 150px;
   width: 100%;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 header img {
@@ -29,13 +28,9 @@ header button {
   padding: 20px;
   border-radius: 20px;
   margin: 10px;
-  background-color:  blueviolet;
+  background-color: blueviolet;
   color: white;
   font-size: 20px;
-}
-
-.nome-sobrenome {
-  margin-top: 50px; 
 }
 
 main input {
@@ -62,9 +57,6 @@ form {
 
 #divPaiEmail {
   display: flex;
-}
-.email-casa {
-  width: 50%;
 }
 
 #casaDiv {
@@ -97,14 +89,6 @@ select {
   margin-top: 10px;
 }
 
-#divCheck {
-  display: flex;
-}
-
-#divCheck label {
-  font-size: 32px;
-}
-
 #labelPrincipal {
   text-align: justify;
 }
@@ -113,21 +97,16 @@ select {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   justify-content: space-around;
 }
 
 #divRate {
   display: flex;
-  justify-content: flex-start;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-label {
-  font-size: 25px;
-}
 
 textarea {
   width: 100%;
@@ -148,11 +127,11 @@ textarea {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   justify-content: space-evenly;
 
 }
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -165,10 +144,12 @@ main {
 
 .nome-sobrenome {
   display: flex;
+  margin-top: 50px;
 }
 
 .email-casa {
   display: flex;
+  width: 50%;
 }
 
 footer {
