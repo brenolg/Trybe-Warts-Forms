@@ -12,6 +12,9 @@ header{
   align-items: center
 }
 
+header img{
+    padding: 20px;
+}
 
 header input{
   border: 1px solid black;
@@ -104,6 +107,10 @@ select{
     display: flex;
 }
 
+#divCheck label{
+    font-size: 32px;
+}
+
 #labelPrincipal{
     text-align: justify;
 }
@@ -130,13 +137,25 @@ textarea{
     width: 100%;
 }
 
-
+#submit-btn{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
 
 main{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 
 }
 #evaluation-form{
