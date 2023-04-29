@@ -3,6 +3,11 @@
 TrybeWarts é um projeto desenvolvido pelos estudantes da Trybe do curso de Desenvolvimento Web Full Stack. O objetivo é criar uma interface de formulário inspirada na saga Harry Potter.
 
 Este projeto foi proposto como um desafio para avaliar os conhecimentos adquiridos durante o módulo de Fundamentos do Desenvolvimento Web da Trybe. O projeto consiste em criar uma interface de formulário que simula uma inscrição para a escola de magia e bruxaria de Hogwarts. Os usuários devem preencher os campos com informações pessoais e preferências, como nome, email, casa e família. Além disso, os usuários devem responder a algumas perguntas sobre o universo Harry Potter e concordar com os termos e condições da escola. Após o preenchimento e validação dos campos, os usuários são redirecionados para uma página de feedback que mostra os dados enviados e uma mensagem personalizada.
+<br/>
+<br/>
+
+<img width="100%" src="pagina-principal.png" />
+Imagem disponibilizada pela Trybe
 
 ## Funcionalidades
 
@@ -28,6 +33,15 @@ git clone git@github.com:brenolg/trybe-warts-forms.git
 ```
 
 2. Abra o arquivo `index.html` em um navegador web de sua preferência.
+
+## Idealizadores
+Este projeto foi realizado em grupo durante o curso de web dev fullstack da trybe e contou com a participação dos seguintes desenvolvedores:
+
+<a href="https://github.com/brenolg/Trybe-Warts-Forms/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=brenolg/Trybe-Warts-Forms" />
+</a>
+
+
 
 ## Requisitos
 
