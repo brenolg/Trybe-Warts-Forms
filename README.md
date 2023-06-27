@@ -29,7 +29,7 @@ Para instalar o projeto localmente, siga os seguintes passos:
 1. Clone o repositório com o comando.
 
 ```javascript
-git clone git@github.com:brenolg/trybe-warts-forms.git
+git clone git@github.com:brenolg/Wizards-Warts-Forms-HTML-JS.git
 ```
 
 2. Abra o arquivo `index.html` em um navegador web de sua preferência.
